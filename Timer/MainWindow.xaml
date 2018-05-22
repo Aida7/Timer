@@ -1,0 +1,15 @@
+﻿<Window x:Class="Timer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Timer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+	<Grid>
+		<Button Content="Пауза" Click="Pause_Clik"  HorizontalAlignment="Left" Height="31" Margin="44,248,0,0" VerticalAlignment="Top" Width="99"/>
+		<Button Content="Старт" Click="Start_Clik"  HorizontalAlignment="Left" Height="31" Margin="182,248,0,0" VerticalAlignment="Top" Width="99"/>
+		<Label Name="label" HorizontalAlignment="Left" Height="31" Margin="48,36,0,0"   VerticalAlignment="Top" Width="213"/>
+
+	</Grid>
+</Window>
